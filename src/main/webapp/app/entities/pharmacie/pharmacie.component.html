@@ -1,0 +1,93 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="getvySeverApp.pharmacie.home.title">Pharmacies</span>
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-pharmacie" [routerLink]="['/pharmacie/new']">
+            <fa-icon [icon]="'plus'"></fa-icon>
+            <span  jhiTranslate="getvySeverApp.pharmacie.home.createLabel">
+            Create a new Pharmacie
+            </span>
+        </button>
+    </h2>
+    <jhi-alert></jhi-alert>
+    <br/>
+    <div class="alert alert-warning" *ngIf="pharmacies?.length === 0">
+        <span jhiTranslate="getvySeverApp.pharmacie.home.notFound">No pharmacies found</span>
+    </div>
+    <div class="table-responsive" *ngIf="pharmacies?.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+            <tr jhiSort [(predicate)]="predicate" [(ascending)]="reverse" [callback]="transition.bind(this)">
+            <th jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="nom"><span jhiTranslate="getvySeverApp.pharmacie.nom">Nom</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="lieu"><span jhiTranslate="getvySeverApp.pharmacie.lieu">Lieu</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="adresseRue"><span jhiTranslate="getvySeverApp.pharmacie.adresseRue">Adresse Rue</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="codePostal"><span jhiTranslate="getvySeverApp.pharmacie.codePostal">Code Postal</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="numeroTel"><span jhiTranslate="getvySeverApp.pharmacie.numeroTel">Numero Tel</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="email"><span jhiTranslate="getvySeverApp.pharmacie.email">Email</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="ville"><span jhiTranslate="getvySeverApp.pharmacie.ville">Ville</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="region"><span jhiTranslate="getvySeverApp.pharmacie.region">Region</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="heureOuverture"><span jhiTranslate="getvySeverApp.pharmacie.heureOuverture">Heure Ouverture</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="heureFermeture"><span jhiTranslate="getvySeverApp.pharmacie.heureFermeture">Heure Fermeture</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="latitude"><span jhiTranslate="getvySeverApp.pharmacie.latitude">Latitude</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="longitude"><span jhiTranslate="getvySeverApp.pharmacie.longitude">Longitude</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="groupe.id"><span jhiTranslate="getvySeverApp.pharmacie.groupe">Groupe</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let pharmacie of pharmacies ;trackBy: trackId">
+                <td><a [routerLink]="['/pharmacie', pharmacie.id, 'view' ]">{{pharmacie.id}}</a></td>
+                <td>{{pharmacie.nom}}</td>
+                <td>{{pharmacie.lieu}}</td>
+                <td>{{pharmacie.adresseRue}}</td>
+                <td>{{pharmacie.codePostal}}</td>
+                <td>{{pharmacie.numeroTel}}</td>
+                <td>{{pharmacie.email}}</td>
+                <td>{{pharmacie.ville}}</td>
+                <td>{{pharmacie.region}}</td>
+                <td>{{pharmacie.heureOuverture | date:'medium'}}</td>
+                <td>{{pharmacie.heureFermeture | date:'medium'}}</td>
+                <td>{{pharmacie.latitude}}</td>
+                <td>{{pharmacie.longitude}}</td>
+                <td>
+                    <div *ngIf="pharmacie.groupe">
+                        <a [routerLink]="['/groupe', pharmacie.groupe?.id, 'view' ]" >{{pharmacie.groupe?.id}}</a>
+                    </div>
+                </td>
+                <td class="text-right">
+                    <div class="btn-group">
+                        <button type="submit"
+                                [routerLink]="['/pharmacie', pharmacie.id, 'view' ]"
+                                class="btn btn-info btn-sm">
+                            <fa-icon [icon]="'eye'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/pharmacie', pharmacie.id, 'edit']"
+                                class="btn btn-primary btn-sm">
+                            <fa-icon [icon]="'pencil-alt'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/pharmacie', { outlets: { popup: pharmacie.id + '/delete'} }]"
+                                replaceUrl="true"
+                                queryParamsHandling="merge"
+                                class="btn btn-danger btn-sm">
+                            <fa-icon [icon]="'times'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div [hidden]="pharmacies?.length === 0">
+        <div class="row justify-content-center">
+            <jhi-item-count [page]="page" [total]="totalItems" [itemsPerPage]="itemsPerPage"></jhi-item-count>
+        </div>
+        <div class="row justify-content-center">
+            <ngb-pagination [collectionSize]="totalItems" [(page)]="page" [pageSize]="itemsPerPage" [maxSize]="5" [rotate]="true" [boundaryLinks]="true" (pageChange)="loadPage(page)"></ngb-pagination>
+        </div>
+    </div>
+</div>

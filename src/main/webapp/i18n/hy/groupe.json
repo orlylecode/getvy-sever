@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "Ստեղծել նոր Groupe",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Groupe",
+        "notFound": "No Groupes found"
+      },
+      "created": "Նոր Groupe ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Groupe թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Groupe հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Groupe {{ id }}?"
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "Crear novo Examen",
+        "createOrEditLabel": "Crear ou editar Examen",
+        "notFound": "No Examen found"
+      },
+      "created": "Un novo Examen foi creado co identificador {{ param }}",
+      "updated": "Un Examen foi actualizado co identificador {{ param }}",
+      "deleted": "Un Examen foi eliminado co identificador {{ param }}",
+      "delete": {
+        "question": "Seguro que desexa eliminar Examen {{ id }}?"
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

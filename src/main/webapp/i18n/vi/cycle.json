@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "cycle": {
+      "home": {
+        "title": "Cycles",
+        "createLabel": "Thêm mới một Cycle",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Cycle",
+        "notFound": "No Cycles found"
+      },
+      "created": "Một Cycle mới được tạo với định danh {{ param }}",
+      "updated": "Một Cycle cập nhật với định danh {{ param }}",
+      "deleted": "Một Cycle đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Cycle {{ id }}?"
+      },
+      "detail": {
+        "title": "Cycle"
+      },
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "libelle": "Libelle",
+      "groupe": "Groupe",
+      "jourDeGarde": "Jour De Garde"
+    }
+  }
+}

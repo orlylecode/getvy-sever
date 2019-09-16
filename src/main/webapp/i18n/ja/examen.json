@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "Examen を追加",
+        "createOrEditLabel": "Examenを追加または編集",
+        "notFound": "No Examen found"
+      },
+      "created": "A new Examen is created with identifier {{ param }}",
+      "updated": "A Examen is updated with identifier {{ param }}",
+      "deleted": "A Examen is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Examen {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

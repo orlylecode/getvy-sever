@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "创建新 Groupe",
+        "createOrEditLabel": "创建或编辑 Groupe",
+        "notFound": "No Groupes found"
+      },
+      "created": "Groupe {{ param }} 创建成功",
+      "updated": "Groupe {{ param }} 更新成功",
+      "deleted": "Groupe {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Groupe {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

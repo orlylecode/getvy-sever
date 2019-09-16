@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "Jour Travails",
+        "createLabel": "Creeare o nouă entitate Jour Travail",
+        "createOrEditLabel": "Creeare sau editare Jour Travail",
+        "notFound": "No Jour Travails found"
+      },
+      "created": "A fost creată o nouă entitate Jour Travail cu identificatorul {{ param }}",
+      "updated": "Jour Travail cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Jour Travail cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Jour Travail {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

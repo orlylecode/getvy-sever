@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "Lisa uus Groupe",
+        "createOrEditLabel": "Lisa või muuda Groupe",
+        "notFound": "No Groupes found"
+      },
+      "created": "Uus Groupe on loodud identifikaatoriga {{ param }}",
+      "updated": "Groupe identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Groupe identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Groupe {{ id }}?"
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="pharmacie">
+            <h2><span jhiTranslate="getvySeverApp.pharmacie.detail.title">Pharmacie</span> {{pharmacie.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="getvySeverApp.pharmacie.nom">Nom</span></dt>
+                <dd>
+                    <span>{{pharmacie.nom}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.pharmacie.lieu">Lieu</span></dt>
+                <dd>
+                    <span>{{pharmacie.lieu}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.pharmacie.adresseRue">Adresse Rue</span></dt>
+                <dd>
+                    <span>{{pharmacie.adresseRue}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.pharmacie.codePostal">Code Postal</span></dt>
+                <dd>
+                    <span>{{pharmacie.codePostal}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.pharmacie.numeroTel">Numero Tel</span></dt>
+                <dd>
+                    <span>{{pharmacie.numeroTel}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.pharmacie.email">Email</span></dt>
+                <dd>
+                    <span>{{pharmacie.email}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.pharmacie.ville">Ville</span></dt>
+                <dd>
+                    <span>{{pharmacie.ville}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.pharmacie.region">Region</span></dt>
+                <dd>
+                    <span>{{pharmacie.region}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.pharmacie.heureOuverture">Heure Ouverture</span></dt>
+                <dd>
+                    <span>{{pharmacie.heureOuverture}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.pharmacie.heureFermeture">Heure Fermeture</span></dt>
+                <dd>
+                    <span>{{pharmacie.heureFermeture}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.pharmacie.latitude">Latitude</span></dt>
+                <dd>
+                    <span>{{pharmacie.latitude}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.pharmacie.longitude">Longitude</span></dt>
+                <dd>
+                    <span>{{pharmacie.longitude}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.pharmacie.groupe">Groupe</span></dt>
+                <dd>
+                    <div *ngIf="pharmacie.groupe">
+                        <a [routerLink]="['/groupe', pharmacie.groupe?.id, 'view']">{{pharmacie.groupe?.id}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/pharmacie', pharmacie.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "cycle": {
+      "home": {
+        "title": "Cycles",
+        "createLabel": "Vytvořit Cycle",
+        "createOrEditLabel": "Vytvořit nebo upravit Cycle",
+        "notFound": "No Cycles found"
+      },
+      "created": "Byl vytvořen potomek entity Cycle s identifikátorem {{ param }}",
+      "updated": "Potomek entity Cycle s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Cycle s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Cycle {{ id }}?"
+      },
+      "detail": {
+        "title": "Cycle"
+      },
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "libelle": "Libelle",
+      "groupe": "Groupe",
+      "jourDeGarde": "Jour De Garde"
+    }
+  }
+}

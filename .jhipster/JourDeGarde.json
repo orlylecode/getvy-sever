@@ -1,0 +1,29 @@
+{
+    "name": "JourDeGarde",
+    "fields": [
+        {
+            "fieldName": "jour",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipName": "cycle",
+            "otherEntityName": "cycle",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190916214920",
+    "entityTableName": "jour_de_garde",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

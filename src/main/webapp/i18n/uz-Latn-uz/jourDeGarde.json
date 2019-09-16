@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourDeGarde": {
+      "home": {
+        "title": "Jour De Gardes",
+        "createLabel": "Yangi Jour De Garde qo`shish",
+        "createOrEditLabel": "Jour De Gardeni tahrirlash",
+        "notFound": "No Jour De Gardes found"
+      },
+      "created": "Jour De Garde {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Jour De Garde saqlandi",
+      "deleted": "{{ param }}- Jour De Garde o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Jour De Gardeni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Jour De Garde"
+      },
+      "jour": "Jour",
+      "cycle": "Cycle"
+    }
+  }
+}

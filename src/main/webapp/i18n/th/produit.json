@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "สร้าง Produit",
+        "createOrEditLabel": "สร้างหรือแก้ไข Produit",
+        "notFound": "No Produits found"
+      },
+      "created": "Produit ถูกสร้างด้วย {{ param }}",
+      "updated": "Produit ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Produit ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Produit {{ id }}?"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "pharmacie": "Pharmacie"
+    }
+  }
+}

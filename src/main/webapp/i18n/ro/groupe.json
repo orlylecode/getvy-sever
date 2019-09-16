@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "Creeare o nouă entitate Groupe",
+        "createOrEditLabel": "Creeare sau editare Groupe",
+        "notFound": "No Groupes found"
+      },
+      "created": "A fost creată o nouă entitate Groupe cu identificatorul {{ param }}",
+      "updated": "Groupe cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Groupe cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Groupe {{ id }}?"
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

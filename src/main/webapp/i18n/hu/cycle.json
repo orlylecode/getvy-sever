@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "cycle": {
+      "home": {
+        "title": "Cycles",
+        "createLabel": "Egy új Cycle létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Cyclet",
+        "notFound": "No Cycles found"
+      },
+      "created": "Egy új Cycle lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Cycle módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Cycle törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Cyclet {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Cycle"
+      },
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "libelle": "Libelle",
+      "groupe": "Groupe",
+      "jourDeGarde": "Jour De Garde"
+    }
+  }
+}

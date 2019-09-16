@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity JourTravail.
+    -->
+    <changeSet id="20190916214921-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="laboratoire_id"
+                                 baseTableName="jour_travail"
+                                 constraintName="fk_jour_travail_laboratoire_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="laboratoire"/>
+
+    </changeSet>
+</databaseChangeLog>

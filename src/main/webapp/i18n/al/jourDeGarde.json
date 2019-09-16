@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourDeGarde": {
+      "home": {
+        "title": "Jour De Gardes",
+        "createLabel": "Krijo një të ri Jour De Garde",
+        "createOrEditLabel": "Krijo ose përpuno një Jour De Garde",
+        "notFound": "No Jour De Gardes found"
+      },
+      "created": "Një Jour De Garde i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Jour De Garde u përpunua me identifikues {{ param }}",
+      "deleted": "Një Jour De Garde u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Jour De Garde {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour De Garde"
+      },
+      "jour": "Jour",
+      "cycle": "Cycle"
+    }
+  }
+}

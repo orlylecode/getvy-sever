@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "cycle": {
+      "home": {
+        "title": "Cycles",
+        "createLabel": "Δημιουργήστε ένα νέο Cycle",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Cycle",
+        "notFound": "No Cycles found"
+      },
+      "created": "Ένα νέο Cycle έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Cycle έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Cycle έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Cycle {{ id }};"
+      },
+      "detail": {
+        "title": "Cycle"
+      },
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "libelle": "Libelle",
+      "groupe": "Groupe",
+      "jourDeGarde": "Jour De Garde"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "cycle": {
+      "home": {
+        "title": "Cycles",
+        "createLabel": "Lisa uus Cycle",
+        "createOrEditLabel": "Lisa või muuda Cycle",
+        "notFound": "No Cycles found"
+      },
+      "created": "Uus Cycle on loodud identifikaatoriga {{ param }}",
+      "updated": "Cycle identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Cycle identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Cycle {{ id }}?"
+      },
+      "detail": {
+        "title": "Cycle"
+      },
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "libelle": "Libelle",
+      "groupe": "Groupe",
+      "jourDeGarde": "Jour De Garde"
+    }
+  }
+}

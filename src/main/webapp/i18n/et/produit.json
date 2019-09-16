@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "Lisa uus Produit",
+        "createOrEditLabel": "Lisa või muuda Produit",
+        "notFound": "No Produits found"
+      },
+      "created": "Uus Produit on loodud identifikaatoriga {{ param }}",
+      "updated": "Produit identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Produit identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Produit {{ id }}?"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "pharmacie": "Pharmacie"
+    }
+  }
+}

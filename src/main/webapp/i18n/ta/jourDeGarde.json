@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourDeGarde": {
+      "home": {
+        "title": "Jour De Gardes",
+        "createLabel": "Jour De Garde-ஐ உருவாக்கு",
+        "createOrEditLabel": "Jour De Garde -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Jour De Gardes found"
+      },
+      "created": "Jour De Garde புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Jour De Garde மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Jour De Garde நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Jour De Garde {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour De Garde"
+      },
+      "jour": "Jour",
+      "cycle": "Cycle"
+    }
+  }
+}

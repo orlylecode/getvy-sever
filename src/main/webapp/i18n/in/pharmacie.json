@@ -1,0 +1,35 @@
+{
+  "getvySeverApp": {
+    "pharmacie": {
+      "home": {
+        "title": "Pharmacies",
+        "createLabel": "Buat Pharmacie baru",
+        "createOrEditLabel": "Buat atau edit Pharmacie",
+        "notFound": "No Pharmacies found"
+      },
+      "created": "Pharmacie dengan id {{ param }} telah dibuat",
+      "updated": "Pharmacie dengan id {{ param }} telah diperbaharui",
+      "deleted": "Pharmacie dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Pharmacie {{ id }}?"
+      },
+      "detail": {
+        "title": "Pharmacie"
+      },
+      "nom": "Nom",
+      "lieu": "Lieu",
+      "adresseRue": "Adresse Rue",
+      "codePostal": "Code Postal",
+      "numeroTel": "Numero Tel",
+      "email": "Email",
+      "ville": "Ville",
+      "region": "Region",
+      "heureOuverture": "Heure Ouverture",
+      "heureFermeture": "Heure Fermeture",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "produit": "Produit",
+      "groupe": "Groupe"
+    }
+  }
+}

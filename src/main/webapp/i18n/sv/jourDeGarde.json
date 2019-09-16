@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourDeGarde": {
+      "home": {
+        "title": "Jour De Gardes",
+        "createLabel": "Skapa en ny Jour De Garde",
+        "createOrEditLabel": "Skapa eller ändra en Jour De Garde",
+        "notFound": "No Jour De Gardes found"
+      },
+      "created": "En ny Jour De Garde är skapad med id {{ param }}",
+      "updated": "En Jour De Garde är uppdaterad med id  {{ param }}",
+      "deleted": "En Jour De Garde är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Jour De Garde {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour De Garde"
+      },
+      "jour": "Jour",
+      "cycle": "Cycle"
+    }
+  }
+}

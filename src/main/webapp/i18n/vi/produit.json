@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "Thêm mới một Produit",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Produit",
+        "notFound": "No Produits found"
+      },
+      "created": "Một Produit mới được tạo với định danh {{ param }}",
+      "updated": "Một Produit cập nhật với định danh {{ param }}",
+      "deleted": "Một Produit đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Produit {{ id }}?"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "pharmacie": "Pharmacie"
+    }
+  }
+}

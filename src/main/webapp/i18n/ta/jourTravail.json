@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "Jour Travails",
+        "createLabel": "Jour Travail-ஐ உருவாக்கு",
+        "createOrEditLabel": "Jour Travail -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Jour Travails found"
+      },
+      "created": "Jour Travail புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Jour Travail மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Jour Travail நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Jour Travail {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

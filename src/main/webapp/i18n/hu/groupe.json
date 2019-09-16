@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "Egy új Groupe létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Groupet",
+        "notFound": "No Groupes found"
+      },
+      "created": "Egy új Groupe lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Groupe módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Groupe törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Groupet {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "Pridať Examen",
+        "createOrEditLabel": "Pridať alebo upraviť Examen",
+        "notFound": "No Examen found"
+      },
+      "created": "Bol vytvorený potomok entity Examen s identifikátorom {{ param }}",
+      "updated": "Potomok entity Examen s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Examen s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Examen {{ id }}?"
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "Crear nuevo Groupe",
+        "createOrEditLabel": "Crear o editar Groupe",
+        "notFound": "No Groupes found"
+      },
+      "created": "Un nuevo Groupe ha sido creado con el identificador {{ param }}",
+      "updated": "Un Groupe ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Groupe ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Groupe {{ id }}?"
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

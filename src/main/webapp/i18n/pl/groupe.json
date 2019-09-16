@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupe",
+        "createLabel": "Dodaj Groupe",
+        "createOrEditLabel": "Dodaj lub edytuj: Groupe",
+        "notFound": "No Groupes found"
+      },
+      "created": "Utworzono nowy obiekt typu Groupe z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Groupe z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Groupe z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Groupe {{ id }}?"
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

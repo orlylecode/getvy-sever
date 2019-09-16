@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "Kreiraj novi Produit",
+        "createOrEditLabel": "Kreirajte ili izmenite Produit",
+        "notFound": "No Produits found"
+      },
+      "created": "Kreiran je novi Produit pod nazivom {{ param }}",
+      "updated": "Produit pod nazivom {{ param }} je ažuriran",
+      "deleted": "Produit pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Produit pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "pharmacie": "Pharmacie"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "Yangi Produit qo`shish",
+        "createOrEditLabel": "Produitni tahrirlash",
+        "notFound": "No Produits found"
+      },
+      "created": "Produit {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Produit saqlandi",
+      "deleted": "{{ param }}- Produit o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Produitni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "pharmacie": "Pharmacie"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "Examen-ஐ உருவாக்கு",
+        "createOrEditLabel": "Examen -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Examen found"
+      },
+      "created": "Examen புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Examen மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Examen நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Examen {{ id }}?"
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

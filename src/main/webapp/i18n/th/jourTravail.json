@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "Jour Travails",
+        "createLabel": "สร้าง Jour Travail",
+        "createOrEditLabel": "สร้างหรือแก้ไข Jour Travail",
+        "notFound": "No Jour Travails found"
+      },
+      "created": "Jour Travail ถูกสร้างด้วย {{ param }}",
+      "updated": "Jour Travail ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Jour Travail ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Jour Travail {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

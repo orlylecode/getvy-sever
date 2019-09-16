@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "Thêm mới một Groupe",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Groupe",
+        "notFound": "No Groupes found"
+      },
+      "created": "Một Groupe mới được tạo với định danh {{ param }}",
+      "updated": "Một Groupe cập nhật với định danh {{ param }}",
+      "deleted": "Một Groupe đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Groupe {{ id }}?"
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

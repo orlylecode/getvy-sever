@@ -1,0 +1,35 @@
+{
+  "getvySeverApp": {
+    "pharmacie": {
+      "home": {
+        "title": "Pharmacies",
+        "createLabel": "Creeare o nouă entitate Pharmacie",
+        "createOrEditLabel": "Creeare sau editare Pharmacie",
+        "notFound": "No Pharmacies found"
+      },
+      "created": "A fost creată o nouă entitate Pharmacie cu identificatorul {{ param }}",
+      "updated": "Pharmacie cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Pharmacie cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Pharmacie {{ id }}?"
+      },
+      "detail": {
+        "title": "Pharmacie"
+      },
+      "nom": "Nom",
+      "lieu": "Lieu",
+      "adresseRue": "Adresse Rue",
+      "codePostal": "Code Postal",
+      "numeroTel": "Numero Tel",
+      "email": "Email",
+      "ville": "Ville",
+      "region": "Region",
+      "heureOuverture": "Heure Ouverture",
+      "heureFermeture": "Heure Fermeture",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "produit": "Produit",
+      "groupe": "Groupe"
+    }
+  }
+}

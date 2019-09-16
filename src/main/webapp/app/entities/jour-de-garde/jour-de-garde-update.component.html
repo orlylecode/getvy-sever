@@ -1,0 +1,47 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+            <h2 id="jhi-jour-de-garde-heading" jhiTranslate="getvySeverApp.jourDeGarde.home.createOrEditLabel">Create or edit a Jour De Garde</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!editForm.get('id').value">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id" formControlName="id"
+                        readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="getvySeverApp.jourDeGarde.jour" for="field_jour">Jour</label>
+                    <div class="d-flex">
+                        <input id="field_jour" type="datetime-local" class="form-control" name="jour" formControlName="jour" placeholder="YYYY-MM-DD HH:mm"/>
+                    </div>
+                    <div *ngIf="editForm.get('jour').invalid && (editForm.get('jour').dirty || editForm.get('jour').touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('jour').errors.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                        <small class="form-text text-danger"
+                            [hidden]="!editForm.get('jour').errors?.ZonedDateTimelocal" jhiTranslate="entity.validation.ZonedDateTimelocal">
+                            This field should be a date and time.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="getvySeverApp.jourDeGarde.cycle" for="field_cycle">Cycle</label>
+                    <select class="form-control" id="field_cycle" name="cycle" formControlName="cycle">
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="cycleOption.id === editForm.get('cycle').value?.id ? editForm.get('cycle').value : cycleOption" *ngFor="let cycleOption of cycles; trackBy: trackCycleById">{{cycleOption.id}}</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourDeGarde": {
+      "home": {
+        "title": "Jour De Gardes",
+        "createLabel": "Kreiraj novi Jour De Garde",
+        "createOrEditLabel": "Kreirajte ili izmenite Jour De Garde",
+        "notFound": "No Jour De Gardes found"
+      },
+      "created": "Kreiran je novi Jour De Garde pod nazivom {{ param }}",
+      "updated": "Jour De Garde pod nazivom {{ param }} je ažuriran",
+      "deleted": "Jour De Garde pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Jour De Garde pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour De Garde"
+      },
+      "jour": "Jour",
+      "cycle": "Cycle"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourDeGarde": {
+      "home": {
+        "title": "Jour De Gardes",
+        "createLabel": "Lisa uus Jour De Garde",
+        "createOrEditLabel": "Lisa või muuda Jour De Garde",
+        "notFound": "No Jour De Gardes found"
+      },
+      "created": "Uus Jour De Garde on loodud identifikaatoriga {{ param }}",
+      "updated": "Jour De Garde identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Jour De Garde identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Jour De Garde {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour De Garde"
+      },
+      "jour": "Jour",
+      "cycle": "Cycle"
+    }
+  }
+}

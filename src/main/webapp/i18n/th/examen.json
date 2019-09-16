@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "สร้าง Examen",
+        "createOrEditLabel": "สร้างหรือแก้ไข Examen",
+        "notFound": "No Examen found"
+      },
+      "created": "Examen ถูกสร้างด้วย {{ param }}",
+      "updated": "Examen ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Examen ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Examen {{ id }}?"
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "Skapa en ny Groupe",
+        "createOrEditLabel": "Skapa eller ändra en Groupe",
+        "notFound": "No Groupes found"
+      },
+      "created": "En ny Groupe är skapad med id {{ param }}",
+      "updated": "En Groupe är uppdaterad med id  {{ param }}",
+      "deleted": "En Groupe är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Groupe {{ id }}?"
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

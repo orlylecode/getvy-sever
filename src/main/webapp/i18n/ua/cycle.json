@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "cycle": {
+      "home": {
+        "title": "Cycles",
+        "createLabel": "Створити новий Cycle",
+        "createOrEditLabel": "Створити чи редагувати Cycle",
+        "notFound": "No Cycles found"
+      },
+      "created": "Новий Cycle створений з ідентифікатором {{ param }}",
+      "updated": "Cycle оновлений з ідентифікатором {{ param }}",
+      "deleted": "Cycle видалений з ідентифікатором {{ param }}",
+      "delete": {
+        "question": "Ви впевнені, що хочете видалити Cycle {{ id }}?"
+      },
+      "detail": {
+        "title": "Cycle"
+      },
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "libelle": "Libelle",
+      "groupe": "Groupe",
+      "jourDeGarde": "Jour De Garde"
+    }
+  }
+}

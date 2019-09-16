@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "Creeare o nouă entitate Examen",
+        "createOrEditLabel": "Creeare sau editare Examen",
+        "notFound": "No Examen found"
+      },
+      "created": "A fost creată o nouă entitate Examen cu identificatorul {{ param }}",
+      "updated": "Examen cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Examen cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Examen {{ id }}?"
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "cycle": {
+      "home": {
+        "title": "Cycles",
+        "createLabel": "Kreiraj novi Cycle",
+        "createOrEditLabel": "Kreirajte ili izmenite Cycle",
+        "notFound": "No Cycles found"
+      },
+      "created": "Kreiran je novi Cycle pod nazivom {{ param }}",
+      "updated": "Cycle pod nazivom {{ param }} je ažuriran",
+      "deleted": "Cycle pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Cycle pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Cycle"
+      },
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "libelle": "Libelle",
+      "groupe": "Groupe",
+      "jourDeGarde": "Jour De Garde"
+    }
+  }
+}

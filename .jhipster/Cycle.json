@@ -1,0 +1,46 @@
+{
+    "name": "Cycle",
+    "fields": [
+        {
+            "fieldName": "dateDebut",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "dateFin",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "libelle",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "groupe",
+            "otherEntityRelationshipName": "cycle",
+            "relationshipName": "groupe"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "jourDeGarde",
+            "otherEntityRelationshipName": "cycle",
+            "relationshipName": "jourDeGarde"
+        }
+    ],
+    "changelogDate": "20190916214922",
+    "entityTableName": "cycle",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

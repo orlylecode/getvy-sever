@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "cycle": {
+      "home": {
+        "title": "Cycles",
+        "createLabel": "नवीन Cycle तयार करा",
+        "createOrEditLabel": "Cycle तयार किंवा संपादित करा",
+        "notFound": "No Cycles found"
+      },
+      "created": "Cycle [identifier: {{ param }}] तयार आहे",
+      "updated": "Cycle [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Cycle [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Cycle [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Cycle"
+      },
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "libelle": "Libelle",
+      "groupe": "Groupe",
+      "jourDeGarde": "Jour De Garde"
+    }
+  }
+}

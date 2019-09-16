@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "Pridať Produit",
+        "createOrEditLabel": "Pridať alebo upraviť Produit",
+        "notFound": "No Produits found"
+      },
+      "created": "Bol vytvorený potomok entity Produit s identifikátorom {{ param }}",
+      "updated": "Potomok entity Produit s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Produit s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Produit {{ id }}?"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "pharmacie": "Pharmacie"
+    }
+  }
+}

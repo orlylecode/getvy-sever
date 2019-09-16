@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "Egy új Produit létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Produitt",
+        "notFound": "No Produits found"
+      },
+      "created": "Egy új Produit lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Produit módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Produit törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Produitt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "pharmacie": "Pharmacie"
+    }
+  }
+}

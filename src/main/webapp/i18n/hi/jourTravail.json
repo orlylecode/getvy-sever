@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "JourTravails",
+        "createLabel": "नया Jour Travail बनाएँ",
+        "createOrEditLabel": "Jour Travail बनाएँ या संपादित करें",
+        "notFound": "No Jour Travails found"
+      },
+      "created": "एक नया Jour Travail [identifier: {{ param }}] तैयार है",
+      "updated": "एक Jour Travail [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Jour Travail [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Jour Travail [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

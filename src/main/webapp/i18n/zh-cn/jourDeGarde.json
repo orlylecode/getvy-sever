@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourDeGarde": {
+      "home": {
+        "title": "Jour De Gardes",
+        "createLabel": "创建新 Jour De Garde",
+        "createOrEditLabel": "创建或编辑 Jour De Garde",
+        "notFound": "No Jour De Gardes found"
+      },
+      "created": "Jour De Garde {{ param }} 创建成功",
+      "updated": "Jour De Garde {{ param }} 更新成功",
+      "deleted": "Jour De Garde {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Jour De Garde {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Jour De Garde"
+      },
+      "jour": "Jour",
+      "cycle": "Cycle"
+    }
+  }
+}

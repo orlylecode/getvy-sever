@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "Krijo një të ri Examen",
+        "createOrEditLabel": "Krijo ose përpuno një Examen",
+        "notFound": "No Examen found"
+      },
+      "created": "Një Examen i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Examen u përpunua me identifikues {{ param }}",
+      "deleted": "Një Examen u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Examen {{ id }}?"
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

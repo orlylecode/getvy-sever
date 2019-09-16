@@ -1,0 +1,35 @@
+{
+  "getvySeverApp": {
+    "pharmacie": {
+      "home": {
+        "title": "Pharmacies",
+        "createLabel": "Pharmacie-ஐ உருவாக்கு",
+        "createOrEditLabel": "Pharmacie -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Pharmacies found"
+      },
+      "created": "Pharmacie புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Pharmacie மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Pharmacie நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Pharmacie {{ id }}?"
+      },
+      "detail": {
+        "title": "Pharmacie"
+      },
+      "nom": "Nom",
+      "lieu": "Lieu",
+      "adresseRue": "Adresse Rue",
+      "codePostal": "Code Postal",
+      "numeroTel": "Numero Tel",
+      "email": "Email",
+      "ville": "Ville",
+      "region": "Region",
+      "heureOuverture": "Heure Ouverture",
+      "heureFermeture": "Heure Fermeture",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "produit": "Produit",
+      "groupe": "Groupe"
+    }
+  }
+}

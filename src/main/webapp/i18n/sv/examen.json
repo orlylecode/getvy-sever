@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "Skapa en ny Examen",
+        "createOrEditLabel": "Skapa eller ändra en Examen",
+        "notFound": "No Examen found"
+      },
+      "created": "En ny Examen är skapad med id {{ param }}",
+      "updated": "En Examen är uppdaterad med id  {{ param }}",
+      "deleted": "En Examen är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Examen {{ id }}?"
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

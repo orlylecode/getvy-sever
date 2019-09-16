@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "Produit を追加",
+        "createOrEditLabel": "Produitを追加または編集",
+        "notFound": "No Produits found"
+      },
+      "created": "A new Produit is created with identifier {{ param }}",
+      "updated": "A Produit is updated with identifier {{ param }}",
+      "deleted": "A Produit is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Produit {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "pharmacie": "Pharmacie"
+    }
+  }
+}

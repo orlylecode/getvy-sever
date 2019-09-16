@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "Yangi Examen qo`shish",
+        "createOrEditLabel": "Examenni tahrirlash",
+        "notFound": "No Examen found"
+      },
+      "created": "Examen {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Examen saqlandi",
+      "deleted": "{{ param }}- Examen o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Examenni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

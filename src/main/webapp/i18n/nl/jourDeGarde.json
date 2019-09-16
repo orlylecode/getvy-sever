@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourDeGarde": {
+      "home": {
+        "title": "Jour De Gardes",
+        "createLabel": "Maak een nieuwe Jour De Garde",
+        "createOrEditLabel": "Maak of wijzig een Jour De Garde",
+        "notFound": "No Jour De Gardes found"
+      },
+      "created": "A new Jour De Garde is created with identifier {{ param }}",
+      "updated": "A Jour De Garde is updated with identifier {{ param }}",
+      "deleted": "A Jour De Garde is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Jour De Garde {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Jour De Garde"
+      },
+      "jour": "Jour",
+      "cycle": "Cycle"
+    }
+  }
+}

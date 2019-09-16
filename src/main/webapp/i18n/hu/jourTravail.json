@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "JourTravails",
+        "createLabel": "Egy új Jour Travail létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Jour Travailt",
+        "notFound": "No Jour Travails found"
+      },
+      "created": "Egy új Jour Travail lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Jour Travail módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Jour Travail törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Jour Travailt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

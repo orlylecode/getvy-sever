@@ -1,0 +1,35 @@
+{
+  "getvySeverApp": {
+    "laboratoire": {
+      "home": {
+        "title": "Laboratoires",
+        "createLabel": "Laboratoire အသစ်ထည့်မည်",
+        "createOrEditLabel": "Laboratoire အသစ်ထည့်ခြင်း (သို့) ပြုပြင်ခြင်း",
+        "notFound": "No Laboratoires found"
+      },
+      "created": "{{ param }} အိုင်ဒီဖြင့် Laboratoire အသစ်တစ်ခုအား ထည့်ပြီးပါပြီ။",
+      "updated": "{{ param }} အိုင်ဒီဖြင့် Laboratoire တစ်ခုအား ပြုပြင်ပြီးပါပြီ။",
+      "deleted": "{{ param }} အိုင်ဒီဖြင့် Laboratoire တစ်ခုအား ဖျက်ပြီးပါပြီ။",
+      "delete": {
+        "question": "Laboratoire {{ id }} အား ဖျက်ပါမည်။ သေချာပါသလား?"
+      },
+      "detail": {
+        "title": "Laboratoire"
+      },
+      "nom": "Nom",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "lieu": "Lieu",
+      "adresseRue": "Adresse Rue",
+      "codePostal": "Code Postal",
+      "numeroTel": "Numero Tel",
+      "email": "Email",
+      "heureOuverture": "Heure Ouverture",
+      "heureFermeture": "Heure Fermeture",
+      "ville": "Ville",
+      "region": "Region",
+      "examen": "Examen",
+      "jourNonOuvrable": "Jour Non Ouvrable"
+    }
+  }
+}

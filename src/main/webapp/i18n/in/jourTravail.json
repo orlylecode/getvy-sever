@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "Jour Travails",
+        "createLabel": "Buat Jour Travail baru",
+        "createOrEditLabel": "Buat atau edit Jour Travail",
+        "notFound": "No Jour Travails found"
+      },
+      "created": "Jour Travail dengan id {{ param }} telah dibuat",
+      "updated": "Jour Travail dengan id {{ param }} telah diperbaharui",
+      "deleted": "Jour Travail dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Jour Travail {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

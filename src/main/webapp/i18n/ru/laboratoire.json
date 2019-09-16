@@ -1,0 +1,35 @@
+{
+  "getvySeverApp": {
+    "laboratoire": {
+      "home": {
+        "title": "Laboratoires",
+        "createLabel": "Создать новый Laboratoire",
+        "createOrEditLabel": "Создать или отредактировать Laboratoire",
+        "notFound": "No Laboratoires found"
+      },
+      "created": "Новый Laboratoire создан с идентификатором {{ param }}",
+      "updated": "Laboratoire обновлен с идентификатором {{ param }}",
+      "deleted": "Laboratoire удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Laboratoire {{ id }}?"
+      },
+      "detail": {
+        "title": "Laboratoire"
+      },
+      "nom": "Nom",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "lieu": "Lieu",
+      "adresseRue": "Adresse Rue",
+      "codePostal": "Code Postal",
+      "numeroTel": "Numero Tel",
+      "email": "Email",
+      "heureOuverture": "Heure Ouverture",
+      "heureFermeture": "Heure Fermeture",
+      "ville": "Ville",
+      "region": "Region",
+      "examen": "Examen",
+      "jourNonOuvrable": "Jour Non Ouvrable"
+    }
+  }
+}

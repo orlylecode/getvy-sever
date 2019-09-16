@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "Krijo një të ri Produit",
+        "createOrEditLabel": "Krijo ose përpuno një Produit",
+        "notFound": "No Produits found"
+      },
+      "created": "Një Produit i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Produit u përpunua me identifikues {{ param }}",
+      "deleted": "Një Produit u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Produit {{ id }}?"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "pharmacie": "Pharmacie"
+    }
+  }
+}

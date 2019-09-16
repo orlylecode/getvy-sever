@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "Jour Travail",
+        "createLabel": "Dodaj Jour Travail",
+        "createOrEditLabel": "Dodaj lub edytuj: Jour Travail",
+        "notFound": "No Jour Travails found"
+      },
+      "created": "Utworzono nowy obiekt typu Jour Travail z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Jour Travail z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Jour Travail z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Jour Travail {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "Jour Travails",
+        "createLabel": "Δημιουργήστε ένα νέο Jour Travail",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Jour Travail",
+        "notFound": "No Jour Travails found"
+      },
+      "created": "Ένα νέο Jour Travail έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Jour Travail έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Jour Travail έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Jour Travail {{ id }};"
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

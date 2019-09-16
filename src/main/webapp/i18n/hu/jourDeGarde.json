@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourDeGarde": {
+      "home": {
+        "title": "JourDeGardes",
+        "createLabel": "Egy új Jour De Garde létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Jour De Gardet",
+        "notFound": "No Jour De Gardes found"
+      },
+      "created": "Egy új Jour De Garde lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Jour De Garde módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Jour De Garde törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Jour De Gardet {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Jour De Garde"
+      },
+      "jour": "Jour",
+      "cycle": "Cycle"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="groupe">
+            <h2><span jhiTranslate="getvySeverApp.groupe.detail.title">Groupe</span> {{groupe.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="getvySeverApp.groupe.nom">Nom</span></dt>
+                <dd>
+                    <span>{{groupe.nom}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.groupe.libelle">Libelle</span></dt>
+                <dd>
+                    <span>{{groupe.libelle}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.groupe.cycle">Cycle</span></dt>
+                <dd>
+                    <div *ngIf="groupe.cycle">
+                        <a [routerLink]="['/cycle', groupe.cycle?.id, 'view']">{{groupe.cycle?.id}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/groupe', groupe.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

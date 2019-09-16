@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "Jour Travails",
+        "createLabel": "Vytvořit Jour Travail",
+        "createOrEditLabel": "Vytvořit nebo upravit Jour Travail",
+        "notFound": "No Jour Travails found"
+      },
+      "created": "Byl vytvořen potomek entity Jour Travail s identifikátorem {{ param }}",
+      "updated": "Potomek entity Jour Travail s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Jour Travail s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Jour Travail {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

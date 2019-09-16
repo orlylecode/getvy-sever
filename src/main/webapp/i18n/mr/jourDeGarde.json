@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourDeGarde": {
+      "home": {
+        "title": "Jour De Gardes",
+        "createLabel": "नवीन Jour De Garde तयार करा",
+        "createOrEditLabel": "Jour De Garde तयार किंवा संपादित करा",
+        "notFound": "No Jour De Gardes found"
+      },
+      "created": "Jour De Garde [identifier: {{ param }}] तयार आहे",
+      "updated": "Jour De Garde [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Jour De Garde [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Jour De Garde [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Jour De Garde"
+      },
+      "jour": "Jour",
+      "cycle": "Cycle"
+    }
+  }
+}

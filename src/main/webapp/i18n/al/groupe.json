@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "Krijo një të ri Groupe",
+        "createOrEditLabel": "Krijo ose përpuno një Groupe",
+        "notFound": "No Groupes found"
+      },
+      "created": "Një Groupe i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Groupe u përpunua me identifikues {{ param }}",
+      "deleted": "Një Groupe u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Groupe {{ id }}?"
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

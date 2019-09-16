@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourDeGarde": {
+      "home": {
+        "title": "Jour De Gardes",
+        "createLabel": "Pridať Jour De Garde",
+        "createOrEditLabel": "Pridať alebo upraviť Jour De Garde",
+        "notFound": "No Jour De Gardes found"
+      },
+      "created": "Bol vytvorený potomok entity Jour De Garde s identifikátorom {{ param }}",
+      "updated": "Potomok entity Jour De Garde s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Jour De Garde s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Jour De Garde {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour De Garde"
+      },
+      "jour": "Jour",
+      "cycle": "Cycle"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "Jour Travails",
+        "createLabel": "కొత్త Jour Travail  సృష్టించండి",
+        "createOrEditLabel": "Jour Travail సృష్టించండి లేదా సవరించండి",
+        "notFound": "No Jour Travails found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Jour Travail సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Jour Travail సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Jour Travail తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Jour Travail {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

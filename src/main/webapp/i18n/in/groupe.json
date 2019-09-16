@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "Buat Groupe baru",
+        "createOrEditLabel": "Buat atau edit Groupe",
+        "notFound": "No Groupes found"
+      },
+      "created": "Groupe dengan id {{ param }} telah dibuat",
+      "updated": "Groupe dengan id {{ param }} telah diperbaharui",
+      "deleted": "Groupe dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Groupe {{ id }}?"
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

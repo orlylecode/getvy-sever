@@ -1,0 +1,79 @@
+{
+    "name": "Laboratoire",
+    "fields": [
+        {
+            "fieldName": "nom",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "latitude",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "longitude",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "lieu",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "adresseRue",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "codePostal",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "numeroTel",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "heureOuverture",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "heureFermeture",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "ville",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "region",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "examen",
+            "otherEntityRelationshipName": "laboratoire",
+            "relationshipName": "examen"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "jourTravail",
+            "otherEntityRelationshipName": "laboratoire",
+            "relationshipName": "jourNonOuvrable"
+        }
+    ],
+    "changelogDate": "20190916214917",
+    "entityTableName": "laboratoire",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

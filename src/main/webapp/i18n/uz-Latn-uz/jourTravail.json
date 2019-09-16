@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "Jour Travails",
+        "createLabel": "Yangi Jour Travail qo`shish",
+        "createOrEditLabel": "Jour Travailni tahrirlash",
+        "notFound": "No Jour Travails found"
+      },
+      "created": "Jour Travail {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Jour Travail saqlandi",
+      "deleted": "{{ param }}- Jour Travail o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Jour Travailni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

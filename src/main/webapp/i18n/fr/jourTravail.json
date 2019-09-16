@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "JourTravails",
+        "createLabel": "Créer un nouveau Jour Travail",
+        "createOrEditLabel": "Créer ou éditer un Jour Travail",
+        "notFound": "Aucun Jour Travail trouvé"
+      },
+      "created": "Un nouveau Jour Travail a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Jour Travail avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Jour Travail avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Jour Travail {{ id }} ?"
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

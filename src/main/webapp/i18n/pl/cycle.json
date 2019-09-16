@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "cycle": {
+      "home": {
+        "title": "Cycle",
+        "createLabel": "Dodaj Cycle",
+        "createOrEditLabel": "Dodaj lub edytuj: Cycle",
+        "notFound": "No Cycles found"
+      },
+      "created": "Utworzono nowy obiekt typu Cycle z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Cycle z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Cycle z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Cycle {{ id }}?"
+      },
+      "detail": {
+        "title": "Cycle"
+      },
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "libelle": "Libelle",
+      "groupe": "Groupe",
+      "jourDeGarde": "Jour De Garde"
+    }
+  }
+}

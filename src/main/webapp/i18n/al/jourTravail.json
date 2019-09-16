@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "Jour Travails",
+        "createLabel": "Krijo një të ri Jour Travail",
+        "createOrEditLabel": "Krijo ose përpuno një Jour Travail",
+        "notFound": "No Jour Travails found"
+      },
+      "created": "Një Jour Travail i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Jour Travail u përpunua me identifikues {{ param }}",
+      "deleted": "Një Jour Travail u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Jour Travail {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

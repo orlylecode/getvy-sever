@@ -1,0 +1,35 @@
+{
+  "getvySeverApp": {
+    "pharmacie": {
+      "home": {
+        "title": "Pharmacies",
+        "createLabel": "Egy új Pharmacie létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Pharmaciet",
+        "notFound": "No Pharmacies found"
+      },
+      "created": "Egy új Pharmacie lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Pharmacie módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Pharmacie törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Pharmaciet {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Pharmacie"
+      },
+      "nom": "Nom",
+      "lieu": "Lieu",
+      "adresseRue": "Adresse Rue",
+      "codePostal": "Code Postal",
+      "numeroTel": "Numero Tel",
+      "email": "Email",
+      "ville": "Ville",
+      "region": "Region",
+      "heureOuverture": "Heure Ouverture",
+      "heureFermeture": "Heure Fermeture",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "produit": "Produit",
+      "groupe": "Groupe"
+    }
+  }
+}

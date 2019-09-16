@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "Thêm mới một Examen",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Examen",
+        "notFound": "No Examen found"
+      },
+      "created": "Một Examen mới được tạo với định danh {{ param }}",
+      "updated": "Một Examen cập nhật với định danh {{ param }}",
+      "deleted": "Một Examen đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Examen {{ id }}?"
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

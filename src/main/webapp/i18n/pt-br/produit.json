@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "Criar novo Produit",
+        "createOrEditLabel": "Criar ou editar Produit",
+        "notFound": "Nenhum Produit encontrado"
+      },
+      "created": "Um novo Produit foi criado com o identificador {{ param }}",
+      "updated": "Um Produit foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Produit foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Produit {{ id }}?"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "pharmacie": "Pharmacie"
+    }
+  }
+}

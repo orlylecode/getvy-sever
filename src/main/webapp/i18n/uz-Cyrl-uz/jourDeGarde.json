@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourDeGarde": {
+      "home": {
+        "title": "Jour De Gardes",
+        "createLabel": "Янги Jour De Garde қўшиш",
+        "createOrEditLabel": "Jour De Gardeни таҳрирлаш",
+        "notFound": "No Jour De Gardes found"
+      },
+      "created": "Jour De Garde {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Jour De Garde сақланди.",
+      "deleted": "{{ param }}- Jour De Garde ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Jour De Gardeни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Jour De Garde"
+      },
+      "jour": "Jour",
+      "cycle": "Cycle"
+    }
+  }
+}

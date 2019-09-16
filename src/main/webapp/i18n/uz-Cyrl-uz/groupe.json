@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "Янги Groupe қўшиш",
+        "createOrEditLabel": "Groupeни таҳрирлаш",
+        "notFound": "No Groupes found"
+      },
+      "created": "Groupe {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Groupe сақланди.",
+      "deleted": "{{ param }}- Groupe ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Groupeни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

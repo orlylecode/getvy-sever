@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "cycle": {
+      "home": {
+        "title": "Cycles",
+        "createLabel": "Buat Cycle baru",
+        "createOrEditLabel": "Buat atau edit Cycle",
+        "notFound": "No Cycles found"
+      },
+      "created": "Cycle dengan id {{ param }} telah dibuat",
+      "updated": "Cycle dengan id {{ param }} telah diperbaharui",
+      "deleted": "Cycle dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Cycle {{ id }}?"
+      },
+      "detail": {
+        "title": "Cycle"
+      },
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "libelle": "Libelle",
+      "groupe": "Groupe",
+      "jourDeGarde": "Jour De Garde"
+    }
+  }
+}

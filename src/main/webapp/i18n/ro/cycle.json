@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "cycle": {
+      "home": {
+        "title": "Cycles",
+        "createLabel": "Creeare o nouă entitate Cycle",
+        "createOrEditLabel": "Creeare sau editare Cycle",
+        "notFound": "No Cycles found"
+      },
+      "created": "A fost creată o nouă entitate Cycle cu identificatorul {{ param }}",
+      "updated": "Cycle cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Cycle cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Cycle {{ id }}?"
+      },
+      "detail": {
+        "title": "Cycle"
+      },
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "libelle": "Libelle",
+      "groupe": "Groupe",
+      "jourDeGarde": "Jour De Garde"
+    }
+  }
+}

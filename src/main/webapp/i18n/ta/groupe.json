@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "Groupe-ஐ உருவாக்கு",
+        "createOrEditLabel": "Groupe -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Groupes found"
+      },
+      "created": "Groupe புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Groupe மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Groupe நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Groupe {{ id }}?"
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

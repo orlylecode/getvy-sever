@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "Produit-ஐ உருவாக்கு",
+        "createOrEditLabel": "Produit -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Produits found"
+      },
+      "created": "Produit புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Produit மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Produit நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Produit {{ id }}?"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "pharmacie": "Pharmacie"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "Egy új Examen létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Exament",
+        "notFound": "No Examen found"
+      },
+      "created": "Egy új Examen lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Examen módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Examen törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Exament {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

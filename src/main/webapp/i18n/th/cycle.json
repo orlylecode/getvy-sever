@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "cycle": {
+      "home": {
+        "title": "Cycles",
+        "createLabel": "สร้าง Cycle",
+        "createOrEditLabel": "สร้างหรือแก้ไข Cycle",
+        "notFound": "No Cycles found"
+      },
+      "created": "Cycle ถูกสร้างด้วย {{ param }}",
+      "updated": "Cycle ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Cycle ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Cycle {{ id }}?"
+      },
+      "detail": {
+        "title": "Cycle"
+      },
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "libelle": "Libelle",
+      "groupe": "Groupe",
+      "jourDeGarde": "Jour De Garde"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "Pridať Groupe",
+        "createOrEditLabel": "Pridať alebo upraviť Groupe",
+        "notFound": "No Groupes found"
+      },
+      "created": "Bol vytvorený potomok entity Groupe s identifikátorom {{ param }}",
+      "updated": "Potomok entity Groupe s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Groupe s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Groupe {{ id }}?"
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

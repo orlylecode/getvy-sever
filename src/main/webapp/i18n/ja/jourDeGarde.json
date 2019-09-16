@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourDeGarde": {
+      "home": {
+        "title": "JourDeGardes",
+        "createLabel": "Jour De Garde を追加",
+        "createOrEditLabel": "Jour De Gardeを追加または編集",
+        "notFound": "No Jour De Gardes found"
+      },
+      "created": "A new Jour De Garde is created with identifier {{ param }}",
+      "updated": "A Jour De Garde is updated with identifier {{ param }}",
+      "deleted": "A Jour De Garde is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Jour De Garde {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Jour De Garde"
+      },
+      "jour": "Jour",
+      "cycle": "Cycle"
+    }
+  }
+}

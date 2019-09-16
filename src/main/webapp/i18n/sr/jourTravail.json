@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "Jour Travails",
+        "createLabel": "Kreiraj novi Jour Travail",
+        "createOrEditLabel": "Kreirajte ili izmenite Jour Travail",
+        "notFound": "No Jour Travails found"
+      },
+      "created": "Kreiran je novi Jour Travail pod nazivom {{ param }}",
+      "updated": "Jour Travail pod nazivom {{ param }} je ažuriran",
+      "deleted": "Jour Travail pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Jour Travail pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

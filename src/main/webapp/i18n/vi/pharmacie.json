@@ -1,0 +1,35 @@
+{
+  "getvySeverApp": {
+    "pharmacie": {
+      "home": {
+        "title": "Pharmacies",
+        "createLabel": "Thêm mới một Pharmacie",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Pharmacie",
+        "notFound": "No Pharmacies found"
+      },
+      "created": "Một Pharmacie mới được tạo với định danh {{ param }}",
+      "updated": "Một Pharmacie cập nhật với định danh {{ param }}",
+      "deleted": "Một Pharmacie đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Pharmacie {{ id }}?"
+      },
+      "detail": {
+        "title": "Pharmacie"
+      },
+      "nom": "Nom",
+      "lieu": "Lieu",
+      "adresseRue": "Adresse Rue",
+      "codePostal": "Code Postal",
+      "numeroTel": "Numero Tel",
+      "email": "Email",
+      "ville": "Ville",
+      "region": "Region",
+      "heureOuverture": "Heure Ouverture",
+      "heureFermeture": "Heure Fermeture",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "produit": "Produit",
+      "groupe": "Groupe"
+    }
+  }
+}

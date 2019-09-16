@@ -1,0 +1,35 @@
+{
+  "getvySeverApp": {
+    "laboratoire": {
+      "home": {
+        "title": "Laboratoires",
+        "createLabel": "建立一筆新的 Laboratoire",
+        "createOrEditLabel": "建立或編輯 Laboratoire",
+        "notFound": "No Laboratoires found"
+      },
+      "created": "新的 Laboratoire 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Laboratoire 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Laboratoire 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Laboratoire {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Laboratoire"
+      },
+      "nom": "Nom",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "lieu": "Lieu",
+      "adresseRue": "Adresse Rue",
+      "codePostal": "Code Postal",
+      "numeroTel": "Numero Tel",
+      "email": "Email",
+      "heureOuverture": "Heure Ouverture",
+      "heureFermeture": "Heure Fermeture",
+      "ville": "Ville",
+      "region": "Region",
+      "examen": "Examen",
+      "jourNonOuvrable": "Jour Non Ouvrable"
+    }
+  }
+}

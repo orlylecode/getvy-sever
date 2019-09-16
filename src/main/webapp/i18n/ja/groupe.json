@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "Groupe を追加",
+        "createOrEditLabel": "Groupeを追加または編集",
+        "notFound": "No Groupes found"
+      },
+      "created": "A new Groupe is created with identifier {{ param }}",
+      "updated": "A Groupe is updated with identifier {{ param }}",
+      "deleted": "A Groupe is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Groupe {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

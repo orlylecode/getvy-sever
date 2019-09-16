@@ -1,0 +1,35 @@
+{
+  "getvySeverApp": {
+    "laboratoire": {
+      "home": {
+        "title": "Laboratoires",
+        "createLabel": "Δημιουργήστε ένα νέο Laboratoire",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Laboratoire",
+        "notFound": "No Laboratoires found"
+      },
+      "created": "Ένα νέο Laboratoire έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Laboratoire έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Laboratoire έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Laboratoire {{ id }};"
+      },
+      "detail": {
+        "title": "Laboratoire"
+      },
+      "nom": "Nom",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "lieu": "Lieu",
+      "adresseRue": "Adresse Rue",
+      "codePostal": "Code Postal",
+      "numeroTel": "Numero Tel",
+      "email": "Email",
+      "heureOuverture": "Heure Ouverture",
+      "heureFermeture": "Heure Fermeture",
+      "ville": "Ville",
+      "region": "Region",
+      "examen": "Examen",
+      "jourNonOuvrable": "Jour Non Ouvrable"
+    }
+  }
+}

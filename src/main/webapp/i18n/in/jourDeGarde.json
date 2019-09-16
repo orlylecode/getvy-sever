@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourDeGarde": {
+      "home": {
+        "title": "Jour De Gardes",
+        "createLabel": "Buat Jour De Garde baru",
+        "createOrEditLabel": "Buat atau edit Jour De Garde",
+        "notFound": "No Jour De Gardes found"
+      },
+      "created": "Jour De Garde dengan id {{ param }} telah dibuat",
+      "updated": "Jour De Garde dengan id {{ param }} telah diperbaharui",
+      "deleted": "Jour De Garde dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Jour De Garde {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour De Garde"
+      },
+      "jour": "Jour",
+      "cycle": "Cycle"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "getvySeverApp": {
+    "laboratoire": {
+      "home": {
+        "title": "Laboratoires",
+        "createLabel": "Laboratoire-ஐ உருவாக்கு",
+        "createOrEditLabel": "Laboratoire -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Laboratoires found"
+      },
+      "created": "Laboratoire புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Laboratoire மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Laboratoire நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Laboratoire {{ id }}?"
+      },
+      "detail": {
+        "title": "Laboratoire"
+      },
+      "nom": "Nom",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "lieu": "Lieu",
+      "adresseRue": "Adresse Rue",
+      "codePostal": "Code Postal",
+      "numeroTel": "Numero Tel",
+      "email": "Email",
+      "heureOuverture": "Heure Ouverture",
+      "heureFermeture": "Heure Fermeture",
+      "ville": "Ville",
+      "region": "Region",
+      "examen": "Examen",
+      "jourNonOuvrable": "Jour Non Ouvrable"
+    }
+  }
+}

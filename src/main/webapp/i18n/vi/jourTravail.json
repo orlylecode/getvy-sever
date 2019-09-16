@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "Jour Travails",
+        "createLabel": "Thêm mới một Jour Travail",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Jour Travail",
+        "notFound": "No Jour Travails found"
+      },
+      "created": "Một Jour Travail mới được tạo với định danh {{ param }}",
+      "updated": "Một Jour Travail cập nhật với định danh {{ param }}",
+      "deleted": "Một Jour Travail đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Jour Travail {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

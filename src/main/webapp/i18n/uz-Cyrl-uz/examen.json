@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "Янги Examen қўшиш",
+        "createOrEditLabel": "Examenни таҳрирлаш",
+        "notFound": "No Examen found"
+      },
+      "created": "Examen {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Examen сақланди.",
+      "deleted": "{{ param }}- Examen ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Examenни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

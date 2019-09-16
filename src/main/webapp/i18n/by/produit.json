@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "Стварыць новы Produit",
+        "createOrEditLabel": "Стварыць або адрэдагаваць Produit",
+        "notFound": "No Produits found"
+      },
+      "created": "Новы Produit створан з ідэнтыфікатарам {{ param }}",
+      "updated": "Produit абноўлен з ідэнтыфікатарам {{ param }}",
+      "deleted": "Produit выдален з ідэнтыфікатарам {{ param }}",
+      "delete": {
+        "question": "Вы ўпэўнены, што жадаеце выдаліць Produit {{ id }}?"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "pharmacie": "Pharmacie"
+    }
+  }
+}

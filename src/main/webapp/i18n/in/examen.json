@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "Buat Examen baru",
+        "createOrEditLabel": "Buat atau edit Examen",
+        "notFound": "No Examen found"
+      },
+      "created": "Examen dengan id {{ param }} telah dibuat",
+      "updated": "Examen dengan id {{ param }} telah diperbaharui",
+      "deleted": "Examen dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Examen {{ id }}?"
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

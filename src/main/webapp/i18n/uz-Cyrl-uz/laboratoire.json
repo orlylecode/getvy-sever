@@ -1,0 +1,35 @@
+{
+  "getvySeverApp": {
+    "laboratoire": {
+      "home": {
+        "title": "Laboratoires",
+        "createLabel": "Янги Laboratoire қўшиш",
+        "createOrEditLabel": "Laboratoireни таҳрирлаш",
+        "notFound": "No Laboratoires found"
+      },
+      "created": "Laboratoire {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Laboratoire сақланди.",
+      "deleted": "{{ param }}- Laboratoire ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Laboratoireни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Laboratoire"
+      },
+      "nom": "Nom",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "lieu": "Lieu",
+      "adresseRue": "Adresse Rue",
+      "codePostal": "Code Postal",
+      "numeroTel": "Numero Tel",
+      "email": "Email",
+      "heureOuverture": "Heure Ouverture",
+      "heureFermeture": "Heure Fermeture",
+      "ville": "Ville",
+      "region": "Region",
+      "examen": "Examen",
+      "jourNonOuvrable": "Jour Non Ouvrable"
+    }
+  }
+}

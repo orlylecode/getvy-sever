@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "Δημιουργήστε ένα νέο Groupe",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Groupe",
+        "notFound": "No Groupes found"
+      },
+      "created": "Ένα νέο Groupe έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Groupe έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Groupe έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Groupe {{ id }};"
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

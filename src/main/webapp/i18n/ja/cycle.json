@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "cycle": {
+      "home": {
+        "title": "Cycles",
+        "createLabel": "Cycle を追加",
+        "createOrEditLabel": "Cycleを追加または編集",
+        "notFound": "No Cycles found"
+      },
+      "created": "A new Cycle is created with identifier {{ param }}",
+      "updated": "A Cycle is updated with identifier {{ param }}",
+      "deleted": "A Cycle is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Cycle {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Cycle"
+      },
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "libelle": "Libelle",
+      "groupe": "Groupe",
+      "jourDeGarde": "Jour De Garde"
+    }
+  }
+}

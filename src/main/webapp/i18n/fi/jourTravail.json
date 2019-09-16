@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "Jour Travails",
+        "createLabel": "Luo Jour Travail",
+        "createOrEditLabel": "Luo tai muokkaa Jour Travail",
+        "notFound": "Jour Travail ei löytynyt"
+      },
+      "created": "Uusi Jour Travail on luotu, id: {{ param }}",
+      "updated": "Jour Travail on päivitetty, id: {{ param }}",
+      "deleted": "Jour Travail on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Jour Travail {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

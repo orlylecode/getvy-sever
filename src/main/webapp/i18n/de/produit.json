@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "Produit erstellen",
+        "createOrEditLabel": "Produit erstellen oder bearbeiten",
+        "notFound": "No Produits found"
+      },
+      "created": "Produit erstellt mit ID {{ param }}",
+      "updated": "Produit aktualisiert mit ID {{ param }}",
+      "deleted": "Produit gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Produit {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "pharmacie": "Pharmacie"
+    }
+  }
+}

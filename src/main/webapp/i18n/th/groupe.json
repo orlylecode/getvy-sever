@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "สร้าง Groupe",
+        "createOrEditLabel": "สร้างหรือแก้ไข Groupe",
+        "notFound": "No Groupes found"
+      },
+      "created": "Groupe ถูกสร้างด้วย {{ param }}",
+      "updated": "Groupe ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Groupe ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Groupe {{ id }}?"
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

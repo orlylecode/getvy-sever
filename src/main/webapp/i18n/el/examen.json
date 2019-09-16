@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "Δημιουργήστε ένα νέο Examen",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Examen",
+        "notFound": "No Examen found"
+      },
+      "created": "Ένα νέο Examen έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Examen έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Examen έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Examen {{ id }};"
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

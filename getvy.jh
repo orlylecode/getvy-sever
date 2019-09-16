@@ -1,0 +1,81 @@
+entity Pharmacie {
+    nom String required,
+    lieu String,
+    adresseRue String,
+    codePostal String,
+    numeroTel String,
+    email String,
+    ville String,
+    region String,
+    heureOuverture Instant,
+    heureFermeture Instant,
+    latitude Double,
+    longitude Double
+}
+    
+entity Groupe {
+ nom String required,
+ libelle String
+}
+
+
+entity Laboratoire {
+    nom String required,
+    latitude Double,
+    longitude Double,
+    lieu String,
+    adresseRue String,
+    codePostal String,
+    numeroTel String,
+    email String,
+    heureOuverture Instant,
+    heureFermeture Instant,
+    ville String,
+    region String
+}
+entity Produit{
+    nom String required,
+    description String,
+    prix BigDecimal,
+    disponibilite Boolean
+}
+    
+entity Examen{
+    nom String required,
+    description String,
+    prix BigDecimal,
+    disponibilite Boolean
+}
+entity JourDeGarde{
+    jour Instant required,
+}
+entity JourTravail{
+    jour Instant required,
+}
+entity Cycle{
+    dateDebut Instant required,
+    dateFin Instant required,
+    libelle String
+}
+
+relationship OneToMany {
+	Laboratoire{examen} to Examen,
+    Laboratoire{jourNonOuvrable} to JourTravail,
+
+    Pharmacie{produit} to Produit,
+    Groupe{pharmacie} to Pharmacie,
+    Cycle{groupe} to Groupe,
+    Cycle{jourDeGarde} to JourDeGarde,
+
+}
+
+paginate Pharmacie, Laboratoire, Examen, Produit with pagination
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl 
+
+// Set an angular suffix
+// angularSuffix * with mySuffix

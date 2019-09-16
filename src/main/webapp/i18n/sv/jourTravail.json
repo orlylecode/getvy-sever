@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "Jour Travails",
+        "createLabel": "Skapa en ny Jour Travail",
+        "createOrEditLabel": "Skapa eller ändra en Jour Travail",
+        "notFound": "No Jour Travails found"
+      },
+      "created": "En ny Jour Travail är skapad med id {{ param }}",
+      "updated": "En Jour Travail är uppdaterad med id  {{ param }}",
+      "deleted": "En Jour Travail är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Jour Travail {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

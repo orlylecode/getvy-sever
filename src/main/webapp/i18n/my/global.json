@@ -7,6 +7,14 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities များ",
+        "pharmacie": "Pharmacie",
+        "groupe": "Groupe",
+        "laboratoire": "Laboratoire",
+        "produit": "Produit",
+        "examen": "Examen",
+        "jourDeGarde": "Jour De Garde",
+        "jourTravail": "Jour Travail",
+        "cycle": "Cycle",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

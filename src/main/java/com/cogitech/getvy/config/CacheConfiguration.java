@@ -42,6 +42,20 @@ public class CacheConfiguration {
             createCache(cm, com.cogitech.getvy.domain.User.class.getName());
             createCache(cm, com.cogitech.getvy.domain.Authority.class.getName());
             createCache(cm, com.cogitech.getvy.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.cogitech.getvy.domain.Pharmacie.class.getName());
+            createCache(cm, com.cogitech.getvy.domain.Pharmacie.class.getName() + ".produits");
+            createCache(cm, com.cogitech.getvy.domain.Groupe.class.getName());
+            createCache(cm, com.cogitech.getvy.domain.Groupe.class.getName() + ".pharmacies");
+            createCache(cm, com.cogitech.getvy.domain.Laboratoire.class.getName());
+            createCache(cm, com.cogitech.getvy.domain.Laboratoire.class.getName() + ".examen");
+            createCache(cm, com.cogitech.getvy.domain.Laboratoire.class.getName() + ".jourNonOuvrables");
+            createCache(cm, com.cogitech.getvy.domain.Produit.class.getName());
+            createCache(cm, com.cogitech.getvy.domain.Examen.class.getName());
+            createCache(cm, com.cogitech.getvy.domain.JourDeGarde.class.getName());
+            createCache(cm, com.cogitech.getvy.domain.JourTravail.class.getName());
+            createCache(cm, com.cogitech.getvy.domain.Cycle.class.getName());
+            createCache(cm, com.cogitech.getvy.domain.Cycle.class.getName() + ".groupes");
+            createCache(cm, com.cogitech.getvy.domain.Cycle.class.getName() + ".jourDeGardes");
             // jhipster-needle-ehcache-add-entry
         };
     }

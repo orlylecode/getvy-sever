@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "cycle": {
+      "home": {
+        "title": "Cycles",
+        "createLabel": "Cycle-ஐ உருவாக்கு",
+        "createOrEditLabel": "Cycle -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Cycles found"
+      },
+      "created": "Cycle புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Cycle மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Cycle நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Cycle {{ id }}?"
+      },
+      "detail": {
+        "title": "Cycle"
+      },
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "libelle": "Libelle",
+      "groupe": "Groupe",
+      "jourDeGarde": "Jour De Garde"
+    }
+  }
+}

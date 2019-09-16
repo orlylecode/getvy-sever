@@ -1,0 +1,35 @@
+{
+  "getvySeverApp": {
+    "laboratoire": {
+      "home": {
+        "title": "Laboratoires",
+        "createLabel": "Thêm mới một Laboratoire",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Laboratoire",
+        "notFound": "No Laboratoires found"
+      },
+      "created": "Một Laboratoire mới được tạo với định danh {{ param }}",
+      "updated": "Một Laboratoire cập nhật với định danh {{ param }}",
+      "deleted": "Một Laboratoire đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Laboratoire {{ id }}?"
+      },
+      "detail": {
+        "title": "Laboratoire"
+      },
+      "nom": "Nom",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "lieu": "Lieu",
+      "adresseRue": "Adresse Rue",
+      "codePostal": "Code Postal",
+      "numeroTel": "Numero Tel",
+      "email": "Email",
+      "heureOuverture": "Heure Ouverture",
+      "heureFermeture": "Heure Fermeture",
+      "ville": "Ville",
+      "region": "Region",
+      "examen": "Examen",
+      "jourNonOuvrable": "Jour Non Ouvrable"
+    }
+  }
+}

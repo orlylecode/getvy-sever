@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "नया Produit बनाएँ",
+        "createOrEditLabel": "Produit बनाएँ या संपादित करें",
+        "notFound": "No Produits found"
+      },
+      "created": "एक नया Produit [identifier: {{ param }}] तैयार है",
+      "updated": "एक Produit [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Produit [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Produit [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "pharmacie": "Pharmacie"
+    }
+  }
+}

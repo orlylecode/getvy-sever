@@ -1,0 +1,29 @@
+{
+    "name": "JourTravail",
+    "fields": [
+        {
+            "fieldName": "jour",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipName": "laboratoire",
+            "otherEntityName": "laboratoire",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190916213749",
+    "entityTableName": "jour_travail",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

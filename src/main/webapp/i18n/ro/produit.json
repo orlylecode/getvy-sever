@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "Creeare o nouă entitate Produit",
+        "createOrEditLabel": "Creeare sau editare Produit",
+        "notFound": "No Produits found"
+      },
+      "created": "A fost creată o nouă entitate Produit cu identificatorul {{ param }}",
+      "updated": "Produit cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Produit cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Produit {{ id }}?"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "pharmacie": "Pharmacie"
+    }
+  }
+}

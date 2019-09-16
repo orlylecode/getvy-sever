@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "Ստեղծել նոր Examen",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Examen",
+        "notFound": "No Examen found"
+      },
+      "created": "Նոր Examen ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Examen թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Examen հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Examen {{ id }}?"
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

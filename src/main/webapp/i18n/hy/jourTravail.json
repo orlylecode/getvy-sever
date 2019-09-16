@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "Jour Travails",
+        "createLabel": "Ստեղծել նոր Jour Travail",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Jour Travail",
+        "notFound": "No Jour Travails found"
+      },
+      "created": "Նոր Jour Travail ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Jour Travail թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Jour Travail հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Jour Travail {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourDeGarde": {
+      "home": {
+        "title": "Jour De Gardes",
+        "createLabel": "สร้าง Jour De Garde",
+        "createOrEditLabel": "สร้างหรือแก้ไข Jour De Garde",
+        "notFound": "No Jour De Gardes found"
+      },
+      "created": "Jour De Garde ถูกสร้างด้วย {{ param }}",
+      "updated": "Jour De Garde ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Jour De Garde ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Jour De Garde {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour De Garde"
+      },
+      "jour": "Jour",
+      "cycle": "Cycle"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="laboratoire">
+            <h2><span jhiTranslate="getvySeverApp.laboratoire.detail.title">Laboratoire</span> {{laboratoire.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="getvySeverApp.laboratoire.nom">Nom</span></dt>
+                <dd>
+                    <span>{{laboratoire.nom}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.laboratoire.latitude">Latitude</span></dt>
+                <dd>
+                    <span>{{laboratoire.latitude}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.laboratoire.longitude">Longitude</span></dt>
+                <dd>
+                    <span>{{laboratoire.longitude}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.laboratoire.lieu">Lieu</span></dt>
+                <dd>
+                    <span>{{laboratoire.lieu}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.laboratoire.adresseRue">Adresse Rue</span></dt>
+                <dd>
+                    <span>{{laboratoire.adresseRue}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.laboratoire.codePostal">Code Postal</span></dt>
+                <dd>
+                    <span>{{laboratoire.codePostal}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.laboratoire.numeroTel">Numero Tel</span></dt>
+                <dd>
+                    <span>{{laboratoire.numeroTel}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.laboratoire.email">Email</span></dt>
+                <dd>
+                    <span>{{laboratoire.email}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.laboratoire.heureOuverture">Heure Ouverture</span></dt>
+                <dd>
+                    <span>{{laboratoire.heureOuverture}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.laboratoire.heureFermeture">Heure Fermeture</span></dt>
+                <dd>
+                    <span>{{laboratoire.heureFermeture}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.laboratoire.ville">Ville</span></dt>
+                <dd>
+                    <span>{{laboratoire.ville}}</span>
+                </dd>
+                <dt><span jhiTranslate="getvySeverApp.laboratoire.region">Region</span></dt>
+                <dd>
+                    <span>{{laboratoire.region}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/laboratoire', laboratoire.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

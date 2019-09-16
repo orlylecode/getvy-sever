@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourTravail": {
+      "home": {
+        "title": "Jour Travails",
+        "createLabel": "Maak een nieuwe Jour Travail",
+        "createOrEditLabel": "Maak of wijzig een Jour Travail",
+        "notFound": "No Jour Travails found"
+      },
+      "created": "A new Jour Travail is created with identifier {{ param }}",
+      "updated": "A Jour Travail is updated with identifier {{ param }}",
+      "deleted": "A Jour Travail is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Jour Travail {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Jour Travail"
+      },
+      "jour": "Jour",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

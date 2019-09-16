@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "Luo Examen",
+        "createOrEditLabel": "Luo tai muokkaa Examen",
+        "notFound": "Examen ei löytynyt"
+      },
+      "created": "Uusi Examen on luotu, id: {{ param }}",
+      "updated": "Examen on päivitetty, id: {{ param }}",
+      "deleted": "Examen on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Examen {{ id }}?"
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

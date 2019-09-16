@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "Lisa uus Examen",
+        "createOrEditLabel": "Lisa või muuda Examen",
+        "notFound": "No Examen found"
+      },
+      "created": "Uus Examen on loodud identifikaatoriga {{ param }}",
+      "updated": "Examen identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Examen identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Examen {{ id }}?"
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

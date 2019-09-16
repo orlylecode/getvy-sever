@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "नवीन Groupe तयार करा",
+        "createOrEditLabel": "Groupe तयार किंवा संपादित करा",
+        "notFound": "No Groupes found"
+      },
+      "created": "Groupe [identifier: {{ param }}] तयार आहे",
+      "updated": "Groupe [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Groupe [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Groupe [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

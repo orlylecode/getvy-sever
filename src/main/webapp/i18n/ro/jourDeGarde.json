@@ -1,0 +1,23 @@
+{
+  "getvySeverApp": {
+    "jourDeGarde": {
+      "home": {
+        "title": "Jour De Gardes",
+        "createLabel": "Creeare o nouă entitate Jour De Garde",
+        "createOrEditLabel": "Creeare sau editare Jour De Garde",
+        "notFound": "No Jour De Gardes found"
+      },
+      "created": "A fost creată o nouă entitate Jour De Garde cu identificatorul {{ param }}",
+      "updated": "Jour De Garde cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Jour De Garde cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Jour De Garde {{ id }}?"
+      },
+      "detail": {
+        "title": "Jour De Garde"
+      },
+      "jour": "Jour",
+      "cycle": "Cycle"
+    }
+  }
+}

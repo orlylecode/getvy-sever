@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "Buat Produit baru",
+        "createOrEditLabel": "Buat atau edit Produit",
+        "notFound": "No Produits found"
+      },
+      "created": "Produit dengan id {{ param }} telah dibuat",
+      "updated": "Produit dengan id {{ param }} telah diperbaharui",
+      "deleted": "Produit dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Produit {{ id }}?"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "pharmacie": "Pharmacie"
+    }
+  }
+}

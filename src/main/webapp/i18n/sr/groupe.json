@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "Kreiraj novi Groupe",
+        "createOrEditLabel": "Kreirajte ili izmenite Groupe",
+        "notFound": "No Groupes found"
+      },
+      "created": "Kreiran je novi Groupe pod nazivom {{ param }}",
+      "updated": "Groupe pod nazivom {{ param }} je ažuriran",
+      "deleted": "Groupe pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Groupe pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

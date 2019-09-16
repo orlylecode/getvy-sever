@@ -1,0 +1,25 @@
+{
+  "getvySeverApp": {
+    "groupe": {
+      "home": {
+        "title": "Groupes",
+        "createLabel": "Yangi Groupe qo`shish",
+        "createOrEditLabel": "Groupeni tahrirlash",
+        "notFound": "No Groupes found"
+      },
+      "created": "Groupe {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Groupe saqlandi",
+      "deleted": "{{ param }}- Groupe o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Groupeni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Groupe"
+      },
+      "nom": "Nom",
+      "libelle": "Libelle",
+      "pharmacie": "Pharmacie",
+      "cycle": "Cycle"
+    }
+  }
+}

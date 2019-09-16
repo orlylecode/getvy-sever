@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "नया Examen बनाएँ",
+        "createOrEditLabel": "Examen बनाएँ या संपादित करें",
+        "notFound": "No Examen found"
+      },
+      "created": "एक नया Examen [identifier: {{ param }}] तैयार है",
+      "updated": "एक Examen [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Examen [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Examen [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

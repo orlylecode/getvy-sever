@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "cycle": {
+      "home": {
+        "title": "Cycles",
+        "createLabel": "Skapa en ny Cycle",
+        "createOrEditLabel": "Skapa eller ändra en Cycle",
+        "notFound": "No Cycles found"
+      },
+      "created": "En ny Cycle är skapad med id {{ param }}",
+      "updated": "En Cycle är uppdaterad med id  {{ param }}",
+      "deleted": "En Cycle är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Cycle {{ id }}?"
+      },
+      "detail": {
+        "title": "Cycle"
+      },
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "libelle": "Libelle",
+      "groupe": "Groupe",
+      "jourDeGarde": "Jour De Garde"
+    }
+  }
+}

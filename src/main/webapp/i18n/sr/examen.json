@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "examen": {
+      "home": {
+        "title": "Examen",
+        "createLabel": "Kreiraj novi Examen",
+        "createOrEditLabel": "Kreirajte ili izmenite Examen",
+        "notFound": "No Examen found"
+      },
+      "created": "Kreiran je novi Examen pod nazivom {{ param }}",
+      "updated": "Examen pod nazivom {{ param }} je ažuriran",
+      "deleted": "Examen pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Examen pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Examen"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "prix": "Prix",
+      "disponibilite": "Disponibilite",
+      "laboratoire": "Laboratoire"
+    }
+  }
+}

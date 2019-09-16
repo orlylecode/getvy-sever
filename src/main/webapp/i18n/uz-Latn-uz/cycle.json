@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "cycle": {
+      "home": {
+        "title": "Cycles",
+        "createLabel": "Yangi Cycle qo`shish",
+        "createOrEditLabel": "Cycleni tahrirlash",
+        "notFound": "No Cycles found"
+      },
+      "created": "Cycle {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Cycle saqlandi",
+      "deleted": "{{ param }}- Cycle o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Cycleni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Cycle"
+      },
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "libelle": "Libelle",
+      "groupe": "Groupe",
+      "jourDeGarde": "Jour De Garde"
+    }
+  }
+}

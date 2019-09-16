@@ -1,0 +1,35 @@
+{
+  "getvySeverApp": {
+    "laboratoire": {
+      "home": {
+        "title": "Laboratoires",
+        "createLabel": "కొత్త Laboratoire  సృష్టించండి",
+        "createOrEditLabel": "Laboratoire సృష్టించండి లేదా సవరించండి",
+        "notFound": "No Laboratoires found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Laboratoire సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Laboratoire సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Laboratoire తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Laboratoire {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Laboratoire"
+      },
+      "nom": "Nom",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "lieu": "Lieu",
+      "adresseRue": "Adresse Rue",
+      "codePostal": "Code Postal",
+      "numeroTel": "Numero Tel",
+      "email": "Email",
+      "heureOuverture": "Heure Ouverture",
+      "heureFermeture": "Heure Fermeture",
+      "ville": "Ville",
+      "region": "Region",
+      "examen": "Examen",
+      "jourNonOuvrable": "Jour Non Ouvrable"
+    }
+  }
+}

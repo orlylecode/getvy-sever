@@ -1,0 +1,35 @@
+{
+  "getvySeverApp": {
+    "laboratoire": {
+      "home": {
+        "title": "Laboratoires",
+        "createLabel": "Kreiraj novi Laboratoire",
+        "createOrEditLabel": "Kreirajte ili izmenite Laboratoire",
+        "notFound": "No Laboratoires found"
+      },
+      "created": "Kreiran je novi Laboratoire pod nazivom {{ param }}",
+      "updated": "Laboratoire pod nazivom {{ param }} je ažuriran",
+      "deleted": "Laboratoire pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Laboratoire pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Laboratoire"
+      },
+      "nom": "Nom",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "lieu": "Lieu",
+      "adresseRue": "Adresse Rue",
+      "codePostal": "Code Postal",
+      "numeroTel": "Numero Tel",
+      "email": "Email",
+      "heureOuverture": "Heure Ouverture",
+      "heureFermeture": "Heure Fermeture",
+      "ville": "Ville",
+      "region": "Region",
+      "examen": "Examen",
+      "jourNonOuvrable": "Jour Non Ouvrable"
+    }
+  }
+}

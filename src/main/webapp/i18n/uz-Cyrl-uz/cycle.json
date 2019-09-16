@@ -1,0 +1,26 @@
+{
+  "getvySeverApp": {
+    "cycle": {
+      "home": {
+        "title": "Cycles",
+        "createLabel": "Янги Cycle қўшиш",
+        "createOrEditLabel": "Cycleни таҳрирлаш",
+        "notFound": "No Cycles found"
+      },
+      "created": "Cycle {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Cycle сақланди.",
+      "deleted": "{{ param }}- Cycle ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Cycleни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Cycle"
+      },
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "libelle": "Libelle",
+      "groupe": "Groupe",
+      "jourDeGarde": "Jour De Garde"
+    }
+  }
+}
